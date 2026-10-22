@@ -1,0 +1,9 @@
+{
+    "name": "skills-for-skills",
+    "version": "1.0.0",
+    "description": "Skills for reorganizing your skills",
+    "author": {
+        "name": "Masashi Umezawa"
+    },
+    "repository": "https://github.com/mumez/skills-for-skills"
+}

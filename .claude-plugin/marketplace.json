@@ -1,0 +1,25 @@
+{
+    "name": "skills-for-skills",
+    "owner": {
+        "name": "Masashi Umezawa"
+    },
+    "metadata": {
+        "description": "Skills for reorganizing your skills"
+    },
+    "plugins": [
+        {
+            "name": "skills-for-skills",
+            "source": "./",
+            "description": "Skills for reorganizing your skills",
+            "version": "1.0.0",
+            "author": {
+                "name": "Masashi Umezawa"
+            },
+            "repository": "https://github.com/mumez/skills-for-skills",
+            "homepage": "https://github.com/mumez/skills-for-skills",
+            "license": "MIT",
+            "keywords": ["claude", "skill-polisher", "skill-organizer"],
+            "category": "development"
+        }
+    ]
+}
