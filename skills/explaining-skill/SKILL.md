@@ -27,6 +27,10 @@ The content is the same in both; only the presentation changes.
 
 ## Step 1 — Locate the skill
 
+**By local path** (a skill directory, its `SKILL.md`, or a plugin/repo directory containing skills):
+
+Explain the files at that path — that is what the user is looking at, even if a copy with the same name is installed elsewhere. If the path holds several skills, ask which one (or give a brief side-by-side overview if the user wants one). Then run `find_skill.py "<name>"` (below) to see whether a skill with the same name is installed: if one is, say which copy is actually active and whether its files differ from the given path (`diff -rq`); if none is, the user hasn't installed it yet, so include the "is it worth installing" judgement in Step 3.
+
 **By name** (e.g. `pdf`, `superpowers:brainstorming`, `/darwin-skill`):
 
 ```bash

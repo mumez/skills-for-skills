@@ -58,6 +58,7 @@ Routing rules:
 - <situation C> → <skill-z>, but not when <condition>
 
 Prompts that should trigger it: "<actual prompt 1 from the session>", "<actual prompt 2>"
+(if the session has no such prompts, write plausible ones and tell the user to replace them with their own wording)
 Prompts that should not: "<near-miss example>"
 
 Competing existing skills: <skill-y> and <skill-w> (their descriptions overlap)
